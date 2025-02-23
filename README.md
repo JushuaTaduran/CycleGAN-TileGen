@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CycleGAN for Tile Generation
 
 This project implements a CycleGAN to generate 32x32 pixel tiles for a Unity game. The model is trained using a single default tile image and a dataset of 300 forest tile images.
@@ -66,3 +67,6 @@ This implementation includes:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+=======
+# CycleGAN-TileGen
+>>>>>>> feb12a975bacc31baccb4eea9a0364ed83db9150
