@@ -1,0 +1,10 @@
+numpy>=1.22.3,<1.24
+torch==1.12.1
+torchvision==0.13.1
+Pillow
+matplotlib
+scikit-learn>=1.6.1
+tslearn>=0.6.3
+contourpy>=1.2.0
+onnx>=1.13.0
+scikit-image>=0.24.0,<0.25
