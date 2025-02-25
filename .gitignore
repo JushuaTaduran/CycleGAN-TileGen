@@ -1,0 +1,16 @@
+# Create or update .gitignore
+echo -e "outputs/\nanalytics/\ncheckpoints/\ndatasets/*.png\ndatasets/*.jpg\ndatasets/*.jpeg" > .gitignore
+
+# Remove existing files
+rm -rf outputs/*
+rm -rf analytics/*
+rm -rf checkpoints/*
+rm -rf datasets/*.png
+rm -rf datasets/*
+
+# Add and commit changes
+git add .gitignore
+git commit -m "Update .gitignore to exclude outputs, analytics, checkpoints, and dataset images"
+
+# Push changes to GitHub
+git push origin PyTorch_CycleGAN
